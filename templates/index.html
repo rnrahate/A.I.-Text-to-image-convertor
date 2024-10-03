@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text-to-Image Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Text-to-Image Generator</h1>
+        <div class="input-section">
+            <textarea id="prompt" placeholder="Describe your image..."></textarea>
+            <button id="generateBtn" class="glow-on-hover">Generate Image</button>
+        </div>
+        
+        <div class="output-section">
+            <div class="loading" id="loading" style="display:none;">🔄 Generating...</div>
+            <img id="generatedImage" src="" alt="Generated Image" style="display:none;">
+            <button id="downloadBtn" class="download-btn" style="display:none;">Download Image</button>
+        </div>
+        
+        <div class="history-section">
+            <h3>Recent Generations</h3>
+            <div id="history"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</body>
+</html>
