@@ -36,9 +36,9 @@ This project is an AI-powered application that converts text prompts into images
 
 <div style="display: flex; align-items: center; justify-content: space-around;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="60">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Flask_logo.svg/1200px-Flask_logo.svg.png" alt="Flask" width="60">
-    <img src="https://stability.ai/assets/images/logo.svg" alt="Stability.ai" width="100">
-    <img src="https://www.deep.ai/wp-content/uploads/2022/03/deep-ai-logo.svg" alt="Deep.ai" width="100">
+    <img src="static\images\flask.jpg" alt="Flask" width="60">
+    <img src="static\images\stabilityai.jpg" alt="Stability.ai" width="100">
+    <img src="static\images\deepai.jpg" alt="Deep.ai" width="100">
 </div>
 
 - **Python**: Programming language used to develop the backend.
