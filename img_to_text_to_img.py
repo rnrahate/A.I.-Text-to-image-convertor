@@ -15,7 +15,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"  # Use GPU if available
 # Create the pipeline for Stable Diffusion
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to(device)
 
-GEMINI_API_KEY = os.environ.get("AIzaSyDiZsG7mfCOfogyBocX_LtQVHgHLuY7vJQ")
+GEMINI_API_KEY = os.environ.get("AIzaSyDiZsG7mfCOfogy_LtQVHgHLuY7vJQ")
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-vision:generateContent"
 
 def describe_image_with_gemini(image_path):
